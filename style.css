@@ -3,17 +3,92 @@
     padding: 0;
     font-family: poppins, monospace;
 }
+body{
+    background-color: rgb(212, 249, 255);
 
-#article{
-    display: flow;
-    justify-content: center;
-    margin: 50px, auto;
 }
-
+#articles{
+    direction: flex-box;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.sit-content{
+    background-color: white;
+    width: 50vw;
+    height: 50vh;
+    margin: 50px auto;
+    border-radius: 20px;
+    padding-top: 20px;
+    box-shadow: 0 0 10px 3px rgba(192, 192, 192, 0.2);
+}
 #content{
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
     text-align: center;
     margin-top: 4rem;
+}
+
+#note{
+    width: 30vw;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#underline{
+    width: 90px;;
+    border: 1px solid darkblue;
+    background-color: darkblue;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+div img{
+    border-radius: 50%;
+}
+
+div#person{
+    background-color: rgba(144, 144, 150, 0.5);
+    border-radius: 100%;
+    width: 135px;
+    margin: 0 auto;
+}
+
+div#quote{
+    color: white;
+    font-size: 30pt;
+    background-color: rgb(0, 132, 255);
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    padding: auto auto;
+    margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    left: 20em;
+}
+
+div.nextprev{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+    font-size: 40pt;
+}
+
+div a{
+    text-decoration: none;
+    color: royalblue;
+}
+
+button{
+    background-color: royalblue;
+    width: 10rem;
+    height: 3em;
+    color: white;
+    border: none;
+    border-radius: 5rem;
+}
+
+button:hover{
+    background-color: rgb(48, 77, 167);
+    cursor: pointer;
 }
