@@ -35,14 +35,16 @@ body{
 
 #underline{
     width: 90px;;
-    border: 1px solid darkblue;
-    background-color: darkblue;
+    border: 1px solid rgb(0, 115, 223);
+    background-color: rgb(0, 115, 223);
     margin: 0 auto;
     margin-top: 10px;
 }
 
 div img{
     border-radius: 50%;
+    width: 100%;
+    height: 40%;
 }
 
 div#person{
@@ -70,9 +72,10 @@ div.nextprev{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 3rem;
-    font-size: 30pt;
+    gap: 2rem;
+    font-size: 19pt;
     margin: 0;
+    margin-bottom: 3px;
     
 }
 
@@ -83,11 +86,13 @@ div a{
 
 button{
     background-color: royalblue;
+    margin: 0 auto;
     width: 10rem;
     height: 3em;
     color: white;
     border: none;
     border-radius: 5rem;
+    margin-top: 0;
 }
 
 button:hover{
@@ -99,6 +104,12 @@ p#name{
     font-weight: bold;
     font-size: larger;
     margin-top: 5px;
+}
+
+h2{
+    color:rgb(0, 132, 255);
+    font-size: 10pt;
+    font-weight: normal;
 }
 
 
